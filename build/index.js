@@ -64,49 +64,17 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var Sources = exports.Sources = [{
-  "unsplashIt": "https://unsplash.it/widthxheight",
-  "placeHolder": "http://via.placeholder.com/widthxheight",
-  "placeImg": "https://placeimg.com/width/height/any",
-  "placeImgAnimals": "https://placeimg.com/width/height/animals",
-  "placeImgArch": "https://placeimg.com/width/height/arch",
-  "placeImgNature": "https://placeimg.com/width/height/nature",
-  "placeImgPeople": "https://placeimg.com/width/height/people",
-  "placeImgTech": "https://placeimg.com/width/height/tech",
-  "fillMurray": "http://fillmurray.com/width/height",
-  "fillMurrayGrey": "http://fillmurray.com/g/width/height",
-  "fakeImgPlease": "http://fakeimg.pl/widthxheight",
-  "placeCageCalm": "http://placecage.com/width/height",
-  "placeCageGray": "http://placecage.com/g/width/height",
-  "placeCageCrazy": "http://placecage.com/c/width/height",
-  "placeBear": "https://placebear.com/width/height",
-  "placeBearGrey": "https://placebear.com/g/width/height",
-  "baconMockup": "http://baconmockup.com/width/height",
-  "placeBeard": "http://placebeard.it/width/height/notag",
-  "stevenseGallery": "http://stevensegallery.com/width/height"
-}];
-
-/***/ }),
-/* 1 */
 /***/ (function(module, exports) {
 
 module.exports = require("react");
 
 /***/ }),
-/* 2 */
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -118,11 +86,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(1);
+var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
-
-var _Sources = __webpack_require__(0);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -144,6 +110,28 @@ var ImagePlaceholder = function (_Component) {
   _createClass(ImagePlaceholder, [{
     key: 'render',
     value: function render() {
+      var Sources = {
+        'unsplashIt': 'https://unsplash.it/widthxheight',
+        'placeHolder': 'http://via.placeholder.com/widthxheight',
+        'placeImg': 'https://placeimg.com/width/height/any',
+        'placeImgAnimals': 'https://placeimg.com/width/height/animals',
+        'placeImgArch': 'https://placeimg.com/width/height/arch',
+        'placeImgNature': 'https://placeimg.com/width/height/nature',
+        'placeImgPeople': 'https://placeimg.com/width/height/people',
+        'placeImgTech': 'https://placeimg.com/width/height/tech',
+        'fillMurray': 'http://fillmurray.com/width/height',
+        'fillMurrayGrey': 'http://fillmurray.com/g/width/height',
+        'fakeImgPlease': 'http://fakeimg.pl/widthxheight',
+        'placeCageCalm': 'http://placecage.com/width/height',
+        'placeCageGray': 'http://placecage.com/g/width/height',
+        'placeCageCrazy': 'http://placecage.com/c/width/height',
+        'placeBear': 'https://placebear.com/width/height',
+        'placeBearGrey': 'https://placebear.com/g/width/height',
+        'baconMockup': 'http://baconmockup.com/width/height',
+        'placeBeard': 'http://placebeard.it/width/height/notag',
+        'stevenseGallery': 'http://stevensegallery.com/width/height'
+      };
+
       var _props = this.props,
           _props$source = _props.source,
           source = _props$source === undefined ? 'unsplashIt' : _props$source,
@@ -153,10 +141,10 @@ var ImagePlaceholder = function (_Component) {
           width = _props$width === undefined ? 320 : _props$width;
 
 
-      var sourceURL = _Sources.Sources[0][source].toString();
+      var sourceURL = Sources[source].toString();
       if (!sourceURL) {
 
-        throw new Error("Unrecognized source");
+        throw new Error('Unrecognized source');
       } else {
 
         sourceURL = sourceURL.replace('width', width).replace('height', height);
