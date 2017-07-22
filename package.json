@@ -1,6 +1,6 @@
 {
   "name": "react-placeholder-componenet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React component that creates placeholder images for your project in progress",
   "main": "build/index.js",
   "keywords": [

@@ -15,9 +15,7 @@ npm install react-placeholder-componenet --save
 import ImagePlaceholder from 'react-placeholder-componenet';
 <ImagePlaceholder source="baconMockup" width="450" height="310" />
 ```
-The above will result in `<img src="http://baconmockup.com/220/200" width="450" height="310" alt="baconMockup">` being rendered on the view.
-
-Plays well with [create-react-app](https://github.com/facebookincubator/create-react-app) 🎉
+The above will result in `<img src="http://baconmockup.com/220/200" width="450" height="310" alt="baconMockup">` being rendered on the view. Plays well with [create-react-app](https://github.com/facebookincubator/create-react-app) 🎉
 
 ## Placeholder Sources
 ```jsx
