@@ -1,6 +1,6 @@
-![Placeholder Preview](http://i.imgur.com/hlLg98q.jpg "Placeholder Image Examples")
+![alt text](http://i.imgur.com/hlLg98q.jpg "Placeholder Image Examples")
 
-[![Build Status](https://travis-ci.org/alexwhin/react-placeholder-componenet.svg?branch=master)](https://travis-ci.org/alexwhin/react-placeholder-componenet) [![Dependency Status](https://www.versioneye.com/user/projects/5973d1460fb24f003723b7e4/badge.svg)](https://www.versioneye.com/user/projects/5973d1460fb24f003723b7e4) ![NPM Version](https://img.shields.io/npm/v/npm.svg) ![NPM Version](http://img.shields.io/npm/dm/localeval.svg)
+[![Build Status](https://travis-ci.org/alexwhin/react-placeholder-componenet.svg?branch=master)](https://travis-ci.org/alexwhin/react-placeholder-componenet) [![Dependency Status](https://www.versioneye.com/user/projects/5973d1460fb24f003723b7e4/badge.svg)](https://www.versioneye.com/user/projects/5973d1460fb24f003723b7e4)
 
 # React Placeholder Component 📌
 React component that creates placeholder images for your project in progress. Inject placeholder images form a varierty of popular services with ease.
