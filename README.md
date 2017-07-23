@@ -55,6 +55,7 @@ height              | 320                | height of rendered image
 width               | 320                | width of rendered image
 
 ---
+
 ## Development & Contributions
 Feature requests/pull requests are welcome. To begin development please fork/clone this repository and run it's development/build enviroment ([webpack](https://webpack.js.org/)).
 ```
@@ -63,8 +64,6 @@ npm start
 ```
 
 The [Jest](https://facebook.github.io/jest/) test suite can also be started with ``npm test`` or ``npm test:watch`` 🔬
-
---
 
 To dev-test the component in a testing-project please run ``npm link`` on the repository directory and follow below.
 
