@@ -31,5 +31,5 @@ for (const sourceURL of Sources) {
 
 it('Placeholder renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<ImagePlaceholder width="aaa" height="200" />, div);
+  ReactDOM.render(<ImagePlaceholder width="200" height="200" />, div);
 });

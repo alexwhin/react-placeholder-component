@@ -540,8 +540,8 @@ var ImagePlaceholder = function (_Component) {
 
 ImagePlaceholder.propTypes = {
   source: _propTypes2.default.string.isRequired,
-  height: _propTypes2.default.number.isRequired,
-  width: _propTypes2.default.number.isRequired
+  height: _propTypes2.default.string.isRequired,
+  width: _propTypes2.default.string.isRequired
 };
 
 ImagePlaceholder.defaultProps = {

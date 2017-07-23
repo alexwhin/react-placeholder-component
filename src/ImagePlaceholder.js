@@ -45,14 +45,14 @@ class ImagePlaceholder extends Component {
 
 ImagePlaceholder.propTypes = {
   source: PropTypes.string.isRequired,
-  height: PropTypes.number.isRequired,
-  width: PropTypes.number.isRequired
+  height: PropTypes.string.isRequired,
+  width: PropTypes.string.isRequired
 };
 
 ImagePlaceholder.defaultProps = {
-  source : 'unsplashIt',
-  height : 320,
-  width  :320
+  source: 'unsplashIt',
+  height: 320,
+  width: 320
 };
 
 export default ImagePlaceholder;
