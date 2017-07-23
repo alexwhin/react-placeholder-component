@@ -1,4 +1,4 @@
-var path = require('path')
+var path = require('path');
 module.exports = {
   entry: './src/ImagePlaceholder.js',
   output: {
@@ -24,4 +24,4 @@ module.exports = {
   externals: {
     'react': 'commonjs react'
   }
-}
+};
