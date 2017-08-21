@@ -1,5 +1,5 @@
 {
-  "name": "react-placeholder-componenet",
+  "name": "react-placeholder-component",
   "version": "1.1.1",
   "description": "A React component that creates placeholder images for your project in progress",
   "main": "build/index.js",
@@ -8,15 +8,15 @@
     "placeholder",
     "react-component"
   ],
-  "homepage": "https://github.com/alexwhin/react-placeholder-componenet",
+    "homepage": "https://github.com/alexwhin/react-placeholder-component",
   "repository": {
     "type": "git",
-    "url": "git@github.com:alexwhin/react-placeholder-componenet"
+    "url": "git@github.com:alexwhin/react-placeholder-component"
   },
   "author": "Alex Whinfield <alexwhin@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexwhin/react-placeholder-componenet/issues"
+    "url": "https://github.com/alexwhin/react-placeholder-component/issues"
   },
   "dependencies": {
     "react": "^15.5.4",

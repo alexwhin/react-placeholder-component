@@ -1,18 +1,18 @@
 ![Placeholder Image Examples](http://i.imgur.com/hlLg98q.jpg)
 
-[![Build Status](https://travis-ci.org/alexwhin/react-placeholder-componenet.svg?branch=master)](https://travis-ci.org/alexwhin/react-placeholder-componenet) ![Dependencies](https://david-dm.org/alexwhin/react-placeholder-componenet.svg) ![Dev Dependencies](https://david-dm.org/alexwhin/react-placeholder-componenet/dev-status.svg) [![Known Vulnerabilities](https://snyk.io/test/github/alexwhin/react-placeholder-componenet/badge.svg)](https://snyk.io/test/github/alexwhin/react-placeholder-componenet) ![NPM Downloads](https://img.shields.io/npm/dt/react-placeholder-componenet.svg)
+[![Build Status](https://travis-ci.org/alexwhin/react-placeholder-component.svg?branch=master)](https://travis-ci.org/alexwhin/react-placeholder-component) ![Dependencies](https://david-dm.org/alexwhin/react-placeholder-component.svg) ![Dev Dependencies](https://david-dm.org/alexwhin/react-placeholder-component/dev-status.svg) [![Known Vulnerabilities](https://snyk.io/test/github/alexwhin/react-placeholder-component/badge.svg)](https://snyk.io/test/github/alexwhin/react-placeholder-component) ![NPM Downloads](https://img.shields.io/npm/dt/react-placeholder-component.svg)
 
 # React Placeholder Component 📌
 React component that creates placeholder images for your project in progress. Inject placeholder images form a varierty of popular services with ease.
 
 ## Install
 ```bash
-npm install react-placeholder-componenet --save
+npm install react-placeholder-component --save
 ```
 
 ## General Usage
 ```jsx
-import ImagePlaceholder from 'react-placeholder-componenet';
+import ImagePlaceholder from 'react-placeholder-component';
 <ImagePlaceholder source="baconMockup" width="450" height="310" />
 ```
 The above will result in `<img src="http://baconmockup.com/220/200" width="450" height="310" alt="baconMockup">` being rendered on the view. Plays well with [create-react-app](https://github.com/facebookincubator/create-react-app) 🎉
@@ -70,7 +70,7 @@ To dev-test the component in a testing-project please run ``npm link`` on the re
 ```
 npm install -g create-react-app
 create-react-app .
-npm link react-placeholder-componenet
+npm link react-placeholder-component
 ```
 
 ## Licence
