@@ -74,4 +74,4 @@ npm link react-placeholder-component
 ```
 
 ## Licence
-Released under The MIT License.
+Released under The MIT License originally developed by Alex Whinfield
