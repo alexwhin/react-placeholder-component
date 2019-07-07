@@ -8,7 +8,7 @@
     "placeholder",
     "react-component"
   ],
-    "homepage": "https://github.com/alexwhin/react-placeholder-component",
+  "homepage": "https://github.com/alexwhin/react-placeholder-component",
   "repository": {
     "type": "git",
     "url": "git@github.com:alexwhin/react-placeholder-component"
@@ -22,13 +22,16 @@
     "react": "^15.5.4",
     "webpack": "^3.3.0",
     "prop-types": "^15.5.10",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "snyk": "^1.192.3"
   },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "axios": "^0.16.2",
@@ -44,5 +47,6 @@
     "babel-preset-react": "^6.24.1",
     "jest": "^20.0.4",
     "react-test-renderer": "^15.6.1"
-  }
+  },
+  "snyk": true
 }
