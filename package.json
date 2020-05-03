@@ -23,7 +23,7 @@
     "webpack": "^3.3.0",
     "prop-types": "^15.5.10",
     "react-dom": "^15.6.1",
-    "snyk": "^1.232.0"
+    "snyk": "^1.316.2"
   },
   "scripts": {
     "test": "jest",
