@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "react": "^15.5.4",
-    "webpack": "^3.3.0",
+    "webpack": "^4.0.0",
     "prop-types": "^15.5.10",
     "react-dom": "^15.6.1",
     "snyk": "^1.232.0"
