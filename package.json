@@ -19,10 +19,10 @@
     "url": "https://github.com/alexwhin/react-placeholder-component/issues"
   },
   "dependencies": {
-    "react": "^15.5.4",
+    "react": "^16.5.0",
     "webpack": "^3.3.0",
     "prop-types": "^15.5.10",
-    "react-dom": "^15.6.1",
+    "react-dom": "^16.5.0",
     "snyk": "^1.232.0"
   },
   "scripts": {
